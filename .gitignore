@@ -1,0 +1,23 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build output
+bin/
+obj/
+*.exe
+*.pdb
+*.tlog
+*.idb
+
+# VSCode
+.vscode/
+
+# System files
+Thumbs.db
+ehthumbs.db
+*.cache
+*.dbmdl
+*.log
+*.lastbuildstate

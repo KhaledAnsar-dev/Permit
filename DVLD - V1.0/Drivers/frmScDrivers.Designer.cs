@@ -1,0 +1,437 @@
+﻿namespace DVLD___V1._0.Drivers
+{
+    partial class frmScDrivers
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmScDrivers));
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.cbFilterType = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.txtFilter = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            this.guna2VSeparator3 = new Guna.UI2.WinForms.Guna2VSeparator();
+            this.btnDetails = new Guna.UI2.WinForms.Guna2Button();
+            this.dgvDriversTable = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.guna2VSeparator2 = new Guna.UI2.WinForms.Guna2VSeparator();
+            this.guna2VSeparator1 = new Guna.UI2.WinForms.Guna2VSeparator();
+            this.guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
+            this.btnDelete = new Guna.UI2.WinForms.Guna2Button();
+            this.btnEdit = new Guna.UI2.WinForms.Guna2Button();
+            this.btnAdd = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2ContextMenuStrip1 = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
+            this.showToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.licensesHistoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.guna2CustomGradientPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDriversTable)).BeginInit();
+            this.guna2ContextMenuStrip1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(30)))), ((int)(((byte)(45)))));
+            this.label2.Location = new System.Drawing.Point(85, 17);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(60, 21);
+            this.label2.TabIndex = 26;
+            this.label2.Text = "Drivers";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(30)))), ((int)(((byte)(45)))));
+            this.label1.Location = new System.Drawing.Point(12, 10);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(77, 30);
+            this.label1.TabIndex = 25;
+            this.label1.Text = "Permit";
+            // 
+            // cbFilterType
+            // 
+            this.cbFilterType.BackColor = System.Drawing.Color.Transparent;
+            this.cbFilterType.BorderRadius = 10;
+            this.cbFilterType.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.cbFilterType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbFilterType.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbFilterType.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.cbFilterType.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.cbFilterType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.cbFilterType.ItemHeight = 30;
+            this.cbFilterType.Items.AddRange(new object[] {
+            "None",
+            "Driver ID",
+            "Person ID",
+            "NO"});
+            this.cbFilterType.Location = new System.Drawing.Point(117, 61);
+            this.cbFilterType.Name = "cbFilterType";
+            this.cbFilterType.ShadowDecoration.BorderRadius = 15;
+            this.cbFilterType.ShadowDecoration.Depth = 5;
+            this.cbFilterType.ShadowDecoration.Enabled = true;
+            this.cbFilterType.Size = new System.Drawing.Size(164, 36);
+            this.cbFilterType.TabIndex = 24;
+            this.cbFilterType.SelectedIndexChanged += new System.EventHandler(this.cbFilterType_SelectedIndexChanged);
+            // 
+            // txtFilter
+            // 
+            this.txtFilter.BackColor = System.Drawing.Color.Transparent;
+            this.txtFilter.BorderRadius = 10;
+            this.txtFilter.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtFilter.DefaultText = "";
+            this.txtFilter.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtFilter.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtFilter.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtFilter.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtFilter.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtFilter.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.txtFilter.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtFilter.Location = new System.Drawing.Point(298, 61);
+            this.txtFilter.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtFilter.Name = "txtFilter";
+            this.txtFilter.PasswordChar = '\0';
+            this.txtFilter.PlaceholderText = "";
+            this.txtFilter.SelectedText = "";
+            this.txtFilter.ShadowDecoration.BorderRadius = 15;
+            this.txtFilter.ShadowDecoration.Depth = 5;
+            this.txtFilter.ShadowDecoration.Enabled = true;
+            this.txtFilter.Size = new System.Drawing.Size(584, 36);
+            this.txtFilter.TabIndex = 23;
+            this.txtFilter.TextChanged += new System.EventHandler(this.txtFilter_TextChanged);
+            this.txtFilter.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtFilter_KeyPress);
+            // 
+            // guna2CustomGradientPanel1
+            // 
+            this.guna2CustomGradientPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel1.BorderRadius = 20;
+            this.guna2CustomGradientPanel1.Controls.Add(this.guna2VSeparator3);
+            this.guna2CustomGradientPanel1.Controls.Add(this.btnDetails);
+            this.guna2CustomGradientPanel1.Controls.Add(this.dgvDriversTable);
+            this.guna2CustomGradientPanel1.Controls.Add(this.guna2VSeparator2);
+            this.guna2CustomGradientPanel1.Controls.Add(this.guna2VSeparator1);
+            this.guna2CustomGradientPanel1.Controls.Add(this.guna2Separator1);
+            this.guna2CustomGradientPanel1.Controls.Add(this.btnDelete);
+            this.guna2CustomGradientPanel1.Controls.Add(this.btnEdit);
+            this.guna2CustomGradientPanel1.Controls.Add(this.btnAdd);
+            this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(34, 129);
+            this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
+            this.guna2CustomGradientPanel1.ShadowDecoration.BorderRadius = 25;
+            this.guna2CustomGradientPanel1.ShadowDecoration.Depth = 5;
+            this.guna2CustomGradientPanel1.ShadowDecoration.Enabled = true;
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(938, 397);
+            this.guna2CustomGradientPanel1.TabIndex = 22;
+            // 
+            // guna2VSeparator3
+            // 
+            this.guna2VSeparator3.Enabled = false;
+            this.guna2VSeparator3.Location = new System.Drawing.Point(312, 24);
+            this.guna2VSeparator3.Name = "guna2VSeparator3";
+            this.guna2VSeparator3.Size = new System.Drawing.Size(8, 23);
+            this.guna2VSeparator3.TabIndex = 34;
+            // 
+            // btnDetails
+            // 
+            this.btnDetails.Animated = true;
+            this.btnDetails.BackColor = System.Drawing.Color.Transparent;
+            this.btnDetails.BorderColor = System.Drawing.Color.IndianRed;
+            this.btnDetails.BorderRadius = 10;
+            this.btnDetails.CustomImages.HoveredImage = global::DVLD___V1._0.Properties.Resources.info__2_;
+            this.btnDetails.CustomImages.Image = global::DVLD___V1._0.Properties.Resources.info__1_;
+            this.btnDetails.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnDetails.CustomImages.ImageSize = new System.Drawing.Size(16, 16);
+            this.btnDetails.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnDetails.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnDetails.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnDetails.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnDetails.Enabled = false;
+            this.btnDetails.FillColor = System.Drawing.Color.SlateGray;
+            this.btnDetails.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.btnDetails.ForeColor = System.Drawing.Color.White;
+            this.btnDetails.Location = new System.Drawing.Point(322, 17);
+            this.btnDetails.Name = "btnDetails";
+            this.btnDetails.Size = new System.Drawing.Size(99, 36);
+            this.btnDetails.TabIndex = 33;
+            this.btnDetails.Text = "Details";
+            this.btnDetails.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnDetails.TextOffset = new System.Drawing.Point(25, 0);
+            this.btnDetails.UseTransparentBackground = true;
+            // 
+            // dgvDriversTable
+            // 
+            this.dgvDriversTable.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.dgvDriversTable.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvDriversTable.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvDriversTable.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dgvDriversTable.ColumnHeadersHeight = 30;
+            this.dgvDriversTable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.dgvDriversTable.ContextMenuStrip = this.guna2ContextMenuStrip1;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvDriversTable.DefaultCellStyle = dataGridViewCellStyle3;
+            this.dgvDriversTable.GridColor = System.Drawing.Color.Gainsboro;
+            this.dgvDriversTable.Location = new System.Drawing.Point(0, 83);
+            this.dgvDriversTable.Name = "dgvDriversTable";
+            this.dgvDriversTable.ReadOnly = true;
+            this.dgvDriversTable.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(30)))), ((int)(((byte)(45)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvDriversTable.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            this.dgvDriversTable.RowHeadersVisible = false;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(30)))), ((int)(((byte)(45)))));
+            this.dgvDriversTable.RowsDefaultCellStyle = dataGridViewCellStyle5;
+            this.dgvDriversTable.RowTemplate.Height = 30;
+            this.dgvDriversTable.Size = new System.Drawing.Size(938, 292);
+            this.dgvDriversTable.TabIndex = 32;
+            this.dgvDriversTable.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.dgvDriversTable.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.dgvDriversTable.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.dgvDriversTable.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.dgvDriversTable.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.dgvDriversTable.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.dgvDriversTable.ThemeStyle.GridColor = System.Drawing.Color.Gainsboro;
+            this.dgvDriversTable.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.dgvDriversTable.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            this.dgvDriversTable.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvDriversTable.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.dgvDriversTable.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.dgvDriversTable.ThemeStyle.HeaderStyle.Height = 30;
+            this.dgvDriversTable.ThemeStyle.ReadOnly = true;
+            this.dgvDriversTable.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.dgvDriversTable.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.dgvDriversTable.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dgvDriversTable.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.dgvDriversTable.ThemeStyle.RowsStyle.Height = 30;
+            this.dgvDriversTable.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.dgvDriversTable.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            // 
+            // guna2VSeparator2
+            // 
+            this.guna2VSeparator2.Enabled = false;
+            this.guna2VSeparator2.Location = new System.Drawing.Point(201, 24);
+            this.guna2VSeparator2.Name = "guna2VSeparator2";
+            this.guna2VSeparator2.Size = new System.Drawing.Size(8, 23);
+            this.guna2VSeparator2.TabIndex = 31;
+            // 
+            // guna2VSeparator1
+            // 
+            this.guna2VSeparator1.Enabled = false;
+            this.guna2VSeparator1.Location = new System.Drawing.Point(105, 24);
+            this.guna2VSeparator1.Name = "guna2VSeparator1";
+            this.guna2VSeparator1.Size = new System.Drawing.Size(8, 23);
+            this.guna2VSeparator1.TabIndex = 30;
+            // 
+            // guna2Separator1
+            // 
+            this.guna2Separator1.Location = new System.Drawing.Point(-3, 59);
+            this.guna2Separator1.Name = "guna2Separator1";
+            this.guna2Separator1.Size = new System.Drawing.Size(938, 18);
+            this.guna2Separator1.TabIndex = 29;
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.Animated = true;
+            this.btnDelete.BackColor = System.Drawing.Color.Transparent;
+            this.btnDelete.BorderColor = System.Drawing.Color.IndianRed;
+            this.btnDelete.BorderRadius = 10;
+            this.btnDelete.CustomImages.HoveredImage = ((System.Drawing.Image)(resources.GetObject("resource.HoveredImage")));
+            this.btnDelete.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
+            this.btnDelete.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnDelete.CustomImages.ImageSize = new System.Drawing.Size(16, 16);
+            this.btnDelete.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnDelete.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnDelete.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnDelete.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnDelete.Enabled = false;
+            this.btnDelete.FillColor = System.Drawing.Color.SlateGray;
+            this.btnDelete.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.btnDelete.ForeColor = System.Drawing.Color.White;
+            this.btnDelete.Location = new System.Drawing.Point(211, 17);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(99, 36);
+            this.btnDelete.TabIndex = 28;
+            this.btnDelete.Text = "Delete";
+            this.btnDelete.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnDelete.TextOffset = new System.Drawing.Point(25, 0);
+            this.btnDelete.UseTransparentBackground = true;
+            // 
+            // btnEdit
+            // 
+            this.btnEdit.Animated = true;
+            this.btnEdit.BackColor = System.Drawing.Color.Transparent;
+            this.btnEdit.BorderColor = System.Drawing.Color.IndianRed;
+            this.btnEdit.BorderRadius = 10;
+            this.btnEdit.CustomImages.HoveredImage = ((System.Drawing.Image)(resources.GetObject("resource.HoveredImage1")));
+            this.btnEdit.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
+            this.btnEdit.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnEdit.CustomImages.ImageSize = new System.Drawing.Size(16, 16);
+            this.btnEdit.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnEdit.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnEdit.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnEdit.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnEdit.Enabled = false;
+            this.btnEdit.FillColor = System.Drawing.Color.SlateGray;
+            this.btnEdit.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEdit.ForeColor = System.Drawing.Color.White;
+            this.btnEdit.Location = new System.Drawing.Point(115, 17);
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.Size = new System.Drawing.Size(84, 36);
+            this.btnEdit.TabIndex = 27;
+            this.btnEdit.Text = "Edit";
+            this.btnEdit.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnEdit.TextOffset = new System.Drawing.Point(25, 0);
+            this.btnEdit.UseTransparentBackground = true;
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.Animated = true;
+            this.btnAdd.BackColor = System.Drawing.Color.Transparent;
+            this.btnAdd.BorderColor = System.Drawing.Color.IndianRed;
+            this.btnAdd.BorderRadius = 10;
+            this.btnAdd.CustomImages.HoveredImage = ((System.Drawing.Image)(resources.GetObject("resource.HoveredImage2")));
+            this.btnAdd.CustomImages.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
+            this.btnAdd.CustomImages.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnAdd.CustomImages.ImageSize = new System.Drawing.Size(16, 16);
+            this.btnAdd.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnAdd.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnAdd.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnAdd.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnAdd.Enabled = false;
+            this.btnAdd.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(153)))), ((int)(((byte)(0)))));
+            this.btnAdd.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAdd.ForeColor = System.Drawing.Color.White;
+            this.btnAdd.Location = new System.Drawing.Point(19, 17);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(84, 36);
+            this.btnAdd.TabIndex = 26;
+            this.btnAdd.Text = "Add";
+            this.btnAdd.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.btnAdd.TextOffset = new System.Drawing.Point(25, 0);
+            this.btnAdd.UseTransparentBackground = true;
+            // 
+            // guna2ContextMenuStrip1
+            // 
+            this.guna2ContextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.showToolStripMenuItem,
+            this.licensesHistoryToolStripMenuItem});
+            this.guna2ContextMenuStrip1.Name = "guna2ContextMenuStrip1";
+            this.guna2ContextMenuStrip1.RenderStyle.ArrowColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.guna2ContextMenuStrip1.RenderStyle.BorderColor = System.Drawing.Color.Gainsboro;
+            this.guna2ContextMenuStrip1.RenderStyle.ColorTable = null;
+            this.guna2ContextMenuStrip1.RenderStyle.RoundedEdges = true;
+            this.guna2ContextMenuStrip1.RenderStyle.SelectionArrowColor = System.Drawing.Color.White;
+            this.guna2ContextMenuStrip1.RenderStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.guna2ContextMenuStrip1.RenderStyle.SelectionForeColor = System.Drawing.Color.White;
+            this.guna2ContextMenuStrip1.RenderStyle.SeparatorColor = System.Drawing.Color.Gainsboro;
+            this.guna2ContextMenuStrip1.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            this.guna2ContextMenuStrip1.Size = new System.Drawing.Size(167, 48);
+            // 
+            // showToolStripMenuItem
+            // 
+            this.showToolStripMenuItem.Name = "showToolStripMenuItem";
+            this.showToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
+            this.showToolStripMenuItem.Text = "Show Person Info";
+            this.showToolStripMenuItem.Click += new System.EventHandler(this.showToolStripMenuItem_Click);
+            // 
+            // licensesHistoryToolStripMenuItem
+            // 
+            this.licensesHistoryToolStripMenuItem.Name = "licensesHistoryToolStripMenuItem";
+            this.licensesHistoryToolStripMenuItem.Size = new System.Drawing.Size(166, 22);
+            this.licensesHistoryToolStripMenuItem.Text = "Licenses History";
+            this.licensesHistoryToolStripMenuItem.Click += new System.EventHandler(this.licensesHistoryToolStripMenuItem_Click);
+            // 
+            // frmScDrivers
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1008, 561);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.cbFilterType);
+            this.Controls.Add(this.txtFilter);
+            this.Controls.Add(this.guna2CustomGradientPanel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.Name = "frmScDrivers";
+            this.Text = "frmScDrivers";
+            this.Load += new System.EventHandler(this.frmScDrivers_Load);
+            this.guna2CustomGradientPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDriversTable)).EndInit();
+            this.guna2ContextMenuStrip1.ResumeLayout(false);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private Guna.UI2.WinForms.Guna2ComboBox cbFilterType;
+        private Guna.UI2.WinForms.Guna2TextBox txtFilter;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
+        private Guna.UI2.WinForms.Guna2VSeparator guna2VSeparator3;
+        private Guna.UI2.WinForms.Guna2Button btnDetails;
+        private Guna.UI2.WinForms.Guna2DataGridView dgvDriversTable;
+        private Guna.UI2.WinForms.Guna2VSeparator guna2VSeparator2;
+        private Guna.UI2.WinForms.Guna2VSeparator guna2VSeparator1;
+        private Guna.UI2.WinForms.Guna2Separator guna2Separator1;
+        private Guna.UI2.WinForms.Guna2Button btnDelete;
+        private Guna.UI2.WinForms.Guna2Button btnEdit;
+        private Guna.UI2.WinForms.Guna2Button btnAdd;
+        private Guna.UI2.WinForms.Guna2ContextMenuStrip guna2ContextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem showToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem licensesHistoryToolStripMenuItem;
+    }
+}
