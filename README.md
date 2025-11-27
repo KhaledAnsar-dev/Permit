@@ -1,66 +1,97 @@
-Permit Management System
+![Structure](Assets/PermitStructure.png)
 
-Multi-layered WinForms desktop application for managing national and international driving license operations, built with a clear N-tier architecture using SQL Server for data persistence and Guna UI Framework for an enhanced user interface.
+---
 
-🛠️ Note: This project was developed and completed in 2024.
+# 🚦 Permit — Driver Licensing Management System (Graduation Project)
 
-💡 Overview
+**Permit is a Driver Licensing Management System, developed as a graduation project after an intensive 1.5‑year practical training program completed online. The journey started from programming fundamentals and evolved toward building rule‑based, state‑driven systems.**
 
-The system simulates a real-world government platform for issuing, renewing, and managing driving licenses. It follows a service-oriented architecture and covers complex business logic for various license operations.
+---
 
-Developed as part of the DVLD Project (Driving & Vehicle License Department), based on detailed official specifications.
+## 🗂 What Permit Actually Provides
 
-🏗️ Key Features
+### **Core Rule-Based Modules**
 
-N-tier architecture: Separation of concerns (UI, BLL, DAL)
+- **User Management** — permissions & activation
+- **License Lifecycle** — issue, renew, replace, suspend
+- **Applications** — requests, fees, processing
+- **Exams** — scheduling & recording
+- **International Licenses** — eligibility rules
+- **Detained Licenses** — violations & release
 
-Advanced entity model: 15+ relational tables (see ER diagram)
+**Each module contains logic, not just database operations.**
 
-User management: Create, update, freeze, and manage access
+---
 
-License lifecycle: Issue, renew, replace (lost/damaged), and suspend licenses
+## 🏗 Why N-Tier Architecture?
 
-Application management: Track requests, payments, and statuses
+To show learners where rules truly belong:
 
-Test tracking: Manage appointments and record results for vision, theory, and practical exams
+- **DAL** → data access only
+- **BLL** → rules, workflows, validations
+- **UI** → triggers operations and displays state
 
-International licenses: Issue and validate based on national eligibility
+This separation makes logic easier to understand, reuse, and extend.
 
-Detained licenses: Fine tracking, release workflows, and historical logs
+---
 
-Fully functional UI using Guna framework
+## 🖥 Why Windows Forms?
 
-📦 Technologies
+Because the goal is to focus on **business logic**, not frontend complexity.
 
-Language: C# (.NET Framework)
+WinForms offers:
 
-UI: WinForms + Guna UI2
+- Instant UI
+- Zero complexity
+- Fast prototyping
+- Direct interaction with the logic
 
-Database: Microsoft SQL Server
+This keeps the learner focused on **rules and states** instead of UI styling.
 
-Architecture: N-tier (UI – BLL – DAL)
+---
 
-📷 Screenshots
+## 🔧 What You Can Learn as a Student or New Developer
 
-![Login](Assets/Login.png)  
+- Structuring rule‑based logic
+- Managing state transitions
+- Validating operations with conditions
+- Building workflow‑oriented modules
+- Separating UI, logic, and data properly
+- Understanding real administrative patterns
+
+---
+
+## 📁 Database Schema
+
+![Schema](Assets/Schema.png)
+
+---
+
+## 🧩 Technologies
+
+- .NET Framework (C#)
+- Windows Forms
+- Guna2 Framework
+- ADO.NET
+- SQL Server
+- N‑Tier Architecture
+
+---
+
+## 📸 Screenshots
+
 ![Menu](Assets/MainMenu.png)  
 ![People Management](Assets/PesonManagement.png)  
 ![New Person](Assets/CreatePerson.png)  
 ![New Local License](Assets/AddLocalLicense.png)  
-![New International License](Assets/AddInternationalLicense.png)  
+![New International License](Assets/AddInternationalLicense.png)
 
-📁 Database Schema
-![Schema](Assets/Schema.png)  
-![ERD](Assets/ERD.png)  
+---
 
+### 🙌 Closing Thoughts
 
+**Permit** began as a small personal experiment and evolved into a compact **educational template** for understanding **rule-based systems**.
 
-🚧 Future Enhancements
+If it **inspires** you or helps you **learn**, that's already more than enough.
 
-Add reporting capabilities
-
-Export/import licenses
-
-Role-based access control (RBAC)
-
-Web version (ASP.NET Core)
+Feel free to **fork** it, **extend** it, or use it in your own learning journey — that's the spirit of **open source**.
